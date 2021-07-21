@@ -33,7 +33,7 @@ margin-left: 150px;
 /*skills*/
 #skills
 {
-  background-color: #B2B8A3;
+  background-color: grey;
   margin-top: 0;
   color: white;
 }
@@ -65,6 +65,10 @@ margin-left: 150px;
   background-color: black;
   color: white;
 }
+.cprog
+{
+  margin-bottom: 25px;
+}
 @media (max-width:550px)
 {
   .abcd
@@ -90,7 +94,7 @@ margin-left: 200px;
 /*hobbies*/
 #hobbies
 {
-  background-color:  #B2B8A3;
+  background-color:  grey;
   color: white;
 }
 .hbbs
@@ -104,13 +108,23 @@ margin-left: 200px;
 }
 .reads
 {
-  margin-left: 80px;
-  margin-top: 15px;
+  margin-left: 260px;
+  margin-top: 25px;
+  margin-bottom: 25px;
+}
+.read
+{
+  margin-left: 130px;
+}
+.write
+{
+  margin-left: 130px;
 }
 .writes
 {
-  margin-left: 80px;
-  margin-top: 15px;
+  margin-left: 260px;
+  margin-top: 25px;
+  margin-bottom: 25px;
 }
 .musics
 {
@@ -143,4 +157,12 @@ margin-left: 200px;
 {
 
   height: 50px;
+}
+@media(max-width: 900px)
+{
+  .title-image
+  {
+    margin-left: 0px;
+    margin-top: 20px;
+  }
 }
