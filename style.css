@@ -9,7 +9,7 @@ margin-left: 0;
 /*Introduction*/
 .title-image
 {
-  height: 220px;
+  height: 350px;
   border-radius: 100%;
 margin-top: 110px;
 margin-left: 150px;
@@ -161,14 +161,6 @@ margin-left: 200px;
 
 @media(max-width: 800px)
 {
-  .read
-  {
-    margin-left: 500px;
-  }
-  .write
-  {
-    margin-left: 500px;
-  }
   .title-image
   {
 
@@ -179,9 +171,11 @@ margin-left: 200px;
   .desc
   {
     margin-left: 0px;
+    padding-right: 50px;
   }
   .aboutme
   {
     margin-left: 0px;
+    padding-right: 50px;
   }
 }
