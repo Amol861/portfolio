@@ -33,9 +33,9 @@ margin-left: 150px;
 /*skills*/
 #skills
 {
-  background-color: grey;
+  background-color: white;
   margin-top: 0;
-  color: white;
+  color: black;
 }
 
 .skill
@@ -94,8 +94,8 @@ margin-left: 200px;
 /*hobbies*/
 #hobbies
 {
-  background-color:  grey;
-  color: white;
+  background-color:  white;
+  color: black;
 }
 .hbbs
 {
@@ -158,11 +158,29 @@ margin-left: 200px;
 
   height: 50px;
 }
-@media(max-width: 900px)
+
+@media(max-width: 600px)
 {
+  .read
+  {
+    margin-left: 200px;
+  }
+  .write
+  {
+    margin-left: 200px;
+  }
   .title-image
   {
+    margin-top: 10px;
+    margin-bottom: 20px;
     margin-left: 0px;
-    margin-top: 20px;
+  }
+  .desc
+  {
+    margin-left: 0px;
+  }
+  .aboutme
+  {
+    margin-left: 0px;
   }
 }
