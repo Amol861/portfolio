@@ -159,7 +159,7 @@ margin-left: 200px;
   height: 50px;
 }
 
-@media(max-width: 500px)
+@media(max-width: 800px)
 {
   .read
   {
@@ -172,8 +172,9 @@ margin-left: 200px;
   .title-image
   {
 
-    margin-bottom: 20px;
+    margin-bottom: 50px;
     margin-left: 0px;
+    border-radius: 0%;
   }
   .desc
   {
