@@ -1,0 +1,146 @@
+/*body*/
+body
+{
+  margin-top: 0;
+margin-right: 0;
+margin-left: 0;
+}
+
+/*Introduction*/
+.title-image
+{
+  height: 220px;
+  border-radius: 100%;
+margin-top: 110px;
+margin-left: 150px;
+}
+.aboutme
+{
+  margin-top: 80px;
+  margin-left: 40px;
+}
+.intro
+{
+  background-color: #1B1A17;
+  color: white;
+  margin-bottom: 0;
+}
+.desc
+{
+  margin-left: 40px;
+  margin-top: 160px;
+}
+/*skills*/
+#skills
+{
+  background-color: #B2B8A3;
+  margin-top: 0;
+  color: white;
+}
+
+.skill
+{
+  text-align: center;
+  margin-top: 0px;
+
+}
+.abcd
+{
+  margin-left: 600px;
+  height: 180px;
+  width: 20%;
+  margin-top: 20px;
+}
+.cprog
+{
+  text-align: center;
+  margin-top: 20px;
+}
+.sft
+{
+  margin-top: 20px;
+}
+#sskill
+{
+  background-color: black;
+  color: white;
+}
+@media (max-width:550px)
+{
+  .abcd
+  {
+    margin-left: 100px;
+    width: 60%;
+    height: 250px;
+  }
+  .cprog
+  {
+    margin-left: 20px;
+  }
+}
+@media (min-width: 551px) and (max-width:1200px)
+{
+  .abcd
+  {
+margin-left: 200px;
+    width: 60%;
+    height: 250px;
+  }
+}
+/*hobbies*/
+#hobbies
+{
+  background-color:  #B2B8A3;
+  color: white;
+}
+.hbbs
+{
+  text-align: center;
+
+}
+.music
+{
+  width: 100%;
+}
+.reads
+{
+  margin-left: 80px;
+  margin-top: 15px;
+}
+.writes
+{
+  margin-left: 80px;
+  margin-top: 15px;
+}
+.musics
+{
+  margin-left: 80px;
+  margin-top: 15px;
+}
+.row
+{
+  margin-top: 15px;
+}
+/*contactme*/
+#contactme
+{
+  background-color: black;
+  color: white;
+  text-align: center;
+}
+.abc
+{
+  margin-left: 10px;
+  height: 50px;
+  margin-top: 20px;
+}
+.def
+{
+
+  height: 50px;
+}
+.ghi
+{
+
+  height: 50px;
+}
